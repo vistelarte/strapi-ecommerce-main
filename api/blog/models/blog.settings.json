@@ -18,9 +18,9 @@
       "default": "Vaxim Latest News"
     },
     "sectionTitleDesc": {
-      "type": "string",
+      "type": "text",
       "required": true,
-      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      "default": "Para abrir nuevos caminos, hay que inventar; experimentar; crecer, correr riesgos, romper las reglas, equivocarse y divertirse. Las mujeres de nuestra colección lo hicieron, tú también puedes siempre recuerda que  “Tú fuerza interior y tus convicciones no tienen edad dales rienda suelta a tus sueños”."
     },
     "pageBannerTitle": {
       "type": "string",
@@ -31,6 +31,16 @@
       "type": "boolean",
       "default": false,
       "required": false
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
