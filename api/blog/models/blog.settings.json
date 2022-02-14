@@ -41,6 +41,11 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "TOP": {
+      "type": "component",
+      "repeatable": true,
+      "component": "top.top-collection"
     }
   }
 }

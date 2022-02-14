@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "subscribes",
   "info": {
-    "name": "subscribe"
+    "name": "subscribe",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,11 +14,11 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
+      "required": false,
       "default": "Sign up now & get 10% off"
     },
     "desc": {
-      "type": "string",
+      "type": "text",
       "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "required": true
     },

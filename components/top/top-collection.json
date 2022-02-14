@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_top_top_collections",
+  "info": {
+    "name": "Top-Collection",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}
