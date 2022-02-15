@@ -49,8 +49,8 @@
       "via": "orders"
     },
     "products": {
-      "collection": "products",
       "via": "orders",
+      "collection": "products",
       "dominant": true
     }
   }
