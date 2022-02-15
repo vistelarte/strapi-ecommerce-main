@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: [self-hosted, vistelarte]
+    runs-on: [ self-hosted, vistelarte ]
     strategy:
       matrix:
         node-version: [14.x]
