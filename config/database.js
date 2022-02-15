@@ -5,7 +5,7 @@ module.exports = ({ env }) => ({
       connector: 'bookshelf',
       settings: {
         client: 'postgres',
-        host: env('DATABASE_HOST', '192.168.1.82'),
+        host: env('DATABASE_HOST', '137.184.45.14'),
         port: env.int('DATABASE_PORT', 5432),
         database: env('DATABASE_NAME', 'vaxim-api'),
         username: env('DATABASE_USERNAME', 'postgres'),
