@@ -28,8 +28,7 @@
     },
     "currencyType": {
       "type": "string",
-      "default": "$",
-      "required": true,
+      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -64,10 +63,9 @@
         }
       }
     },
-    "sku": {
+    "size": {
       "type": "string",
-      "default": "AB254ABC",
-      "required": true,
+      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -87,7 +85,7 @@
     "inStock": {
       "type": "boolean",
       "default": true,
-      "required": true,
+      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
