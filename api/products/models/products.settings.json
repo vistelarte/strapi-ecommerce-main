@@ -210,6 +210,10 @@
     "orders": {
       "via": "products",
       "collection": "order"
+    },
+    "type": {
+      "via": "products",
+      "model": "type"
     }
   }
 }
